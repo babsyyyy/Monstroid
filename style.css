@@ -204,14 +204,22 @@ body{
 }
 @media screen and (max-width: 700px) {
     .intro{
-        padding: 15px 20px;
+        padding: 15px 3px;
+    }
+    .intro p{
+        font-size: 12px;
     }
     .duct{
+        position: sticky;
+        top: 0;
         padding: 12px 10px;
         background-color: wheat;
     }
     .burger{
         display: block;
+    }
+    .woods, .conone{
+        font-size: 12px;
     }
     .sidebar{
         background-color: wheat;
@@ -231,11 +239,17 @@ body{
         display: block;
         padding: 5px;
     }
+    .sidebar > li > a{
+        font-size: 12px;
+    }
     .sidebar a:hover{
         background-color: red;
     }
     .container{
         width: 100%;
+    }
+    .bouquets h1{
+        font-size: 40px;
     }
     .grid{
         display: grid;
@@ -244,6 +258,15 @@ body{
     }
     .grid > div{
         width: auto;
+    }
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    h3{
+        font-size: 16px;
     }
     .ply1{
         grid-row: 1/2;
@@ -297,5 +320,11 @@ body{
         grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+    }
+    .rebel{
+        width: 200px;
+    }
+    .loco{
+        width: 50px;
     }
 }  
