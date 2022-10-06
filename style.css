@@ -207,7 +207,7 @@ body{
         padding: 15px 3px;
     }
     .intro p{
-        font-size: 8px;
+        font-size: 12px;
     }
     .duct{
         position: sticky;
@@ -219,7 +219,7 @@ body{
         display: block;
     }
     .woods, .conone{
-        font-size: 8px;
+        font-size: 12px;
     }
     .sidebar{
         background-color: wheat;
@@ -249,7 +249,7 @@ body{
         width: 100%;
     }
     .bouquets h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     .grid{
         display: grid;
@@ -260,13 +260,13 @@ body{
         width: auto;
     }
     p{
-        font-size: 8px;
+        font-size: 12px;
     }
     h1{
-        font-size: 20px;
+        font-size: 30px;
     }
     h3{
-        font-size: 12px;
+        font-size: 16px;
     }
     .ply1{
         grid-row: 1/2;
@@ -322,9 +322,12 @@ body{
         gap: 10px;
     }
     .rebel{
-        width: 100px;
+        width: 130px;
     }
     .loco{
-        width: 20px;
+        width: 30px;
+    }
+    .svg > svg{
+        width: 15px;
     }
 }  
