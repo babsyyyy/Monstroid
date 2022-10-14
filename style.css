@@ -11,7 +11,7 @@ body{
     width: 100%;
     background-color: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 15px 70px;
 }
 .side{
@@ -207,7 +207,10 @@ body{
         padding: 15px 3px;
     }
     .intro p{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .side > p{
+        padding: 0px 3px;
     }
     .duct{
         position: sticky;
@@ -219,7 +222,7 @@ body{
         display: block;
     }
     .woods, .conone{
-        font-size: 12px;
+        font-size: 10px;
     }
     .sidebar{
         background-color: wheat;
@@ -344,6 +347,6 @@ body{
         width: 30px;
     }
     .svg > svg{
-        width: 15px;
+        width: 8px;
     }
 }  
