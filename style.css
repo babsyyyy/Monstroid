@@ -212,6 +212,9 @@ body{
     .side > p{
         padding: 0px 3px;
     }
+    .ijoba{
+        border-left: 0.5px solid white;
+    }
     .duct{
         position: sticky;
         top: 0;
@@ -348,6 +351,6 @@ body{
         width: 35px;
     }
     .svg > svg{
-        width: 8px;
+        width: 10px;
     }
 }  
