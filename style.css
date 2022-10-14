@@ -11,7 +11,7 @@ body{
     width: 100%;
     background-color: red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px 70px;
 }
 .side{
@@ -335,16 +335,17 @@ body{
         z-index: -1;
     }
     .coal{
+        margin-left: 5px;
         display: grid;
         grid-template-rows: auto auto;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        gap: 5px;
     }
     .rebel{
-        width: 130px;
+        width: 145px;
     }
     .loco{
-        width: 30px;
+        width: 35px;
     }
     .svg > svg{
         width: 8px;
